@@ -1,0 +1,1 @@
+7ac374a54f1299c7241796a3a202b685cdd0387df730ecde0ed3508f189a866c  macOS/LocalFinder_0.1.0_aarch64.dmg
