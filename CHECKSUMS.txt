@@ -1,2 +1,3 @@
 7ac374a54f1299c7241796a3a202b685cdd0387df730ecde0ed3508f189a866c  macOS/LocalFinder_0.1.0_aarch64.dmg
 a5ea7d980b6b5769c0c6148b926e52d57398925455928d52bb515c380a06b89f  macOS/LocalFinder_0.1.1_aarch64.dmg
+ef671149a2f3ad00fefb538efb7cf812d849bfd312974216dc8a9da34a1dbfce  macOS/LocalFinder_0.1.2_aarch64.dmg
