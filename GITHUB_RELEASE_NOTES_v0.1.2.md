@@ -11,6 +11,9 @@ Intel Mac requires a separate x64 build on an Intel macOS runner or an x86_64 Py
 ## Changes
 
 - Reuses saved indexes on app startup instead of rebuilding every time.
+- Avoids automatic full-home indexing on first launch; users choose directories before indexing starts.
+- Changes the toolbar action from rebuild to lightweight sync.
+- Simplifies the sidebar index status into a compact progress summary.
 - Adds an index storage path selector in the sidebar.
 - Stores the real SQLite/FTS index database at the user-selected path.
 - Shows the selected index storage path immediately after the user confirms the folder picker.
@@ -19,7 +22,7 @@ Intel Mac requires a separate x64 build on an Intel macOS runner or an x86_64 Py
 
 ## Checksum
 
-`ef671149a2f3ad00fefb538efb7cf812d849bfd312974216dc8a9da34a1dbfce  LocalFinder_0.1.2_aarch64.dmg`
+`2ce77d1900832559fdf0d205498bac8fb1281e64bae5c77b2729b960d60c50bd  LocalFinder_0.1.2_aarch64.dmg`
 
 ## Note
 
