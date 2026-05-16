@@ -16,12 +16,13 @@ Intel Mac requires a separate x64 build on an Intel macOS runner or an x86_64 Py
 - Keeps the toolbar action as non-destructive index sync rather than clearing and rebuilding the index.
 - Redesigns the sidebar into clearer `索引范围`, `索引数据库`, `限定检索`, and `索引状态` sections.
 - Replaces the old extension checkbox grid with Everything-style category filters for documents, spreadsheets, presentations, web files, data files, and code.
+- Fixes a left sidebar layout issue where long index database paths could overlap the `限定检索` section.
 - Keeps the simplified compact index status summary introduced in v0.1.2.
 - Updates desktop and backend version metadata to `0.1.3`.
 
 ## Checksum
 
-`874ece19e749170595e7bace0527cf21b41834ef21651dc49da0facb932b1f20  LocalFinder_0.1.3_aarch64.dmg`
+`9bfe18fb5125c6f38dd227e70f089fd62c7ffd979447810eb92c1cd4afdb7f21  LocalFinder_0.1.3_aarch64.dmg`
 
 ## Note
 
