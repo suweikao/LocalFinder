@@ -17,12 +17,14 @@ Intel Mac requires a separate x64 build on an Intel macOS runner or an x86_64 Py
 - Redesigns the sidebar into clearer `索引范围`, `索引数据库`, `限定检索`, and `索引状态` sections.
 - Replaces the old extension checkbox grid with Everything-style category filters for documents, spreadsheets, presentations, web files, data files, and code.
 - Fixes a left sidebar layout issue where long index database paths could overlap the `限定检索` section.
+- Reworks filename search to behave more like Everything: scanned files are searchable by filename immediately, even before or without successful content extraction.
+- Adds case-insensitive multi-keyword and substring filename matching while keeping filename search separate from full-text search.
 - Keeps the simplified compact index status summary introduced in v0.1.2.
 - Updates desktop and backend version metadata to `0.1.3`.
 
 ## Checksum
 
-`9bfe18fb5125c6f38dd227e70f089fd62c7ffd979447810eb92c1cd4afdb7f21  LocalFinder_0.1.3_aarch64.dmg`
+`510b7c963bec77bf35a7b99743f7f66afd1cadc81e901ff170090e40c73cfe34  LocalFinder_0.1.3_aarch64.dmg`
 
 ## Note
 
