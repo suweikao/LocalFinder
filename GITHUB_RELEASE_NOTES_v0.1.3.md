@@ -21,6 +21,8 @@ Intel Mac requires a separate x64 build on an Intel macOS runner or an x86_64 Py
 - Adds case-insensitive multi-keyword and substring filename matching while keeping filename search separate from full-text search.
 - Separates filename metadata indexing from full-text content indexing: visible files are indexed by filename/path metadata, while only supported text-bearing files enter the full-text extraction pipeline.
 - Adds an Everything-style filename result table with Name, Path, Size, Date Modified, and Type columns.
+- Empty filename searches now browse all metadata-indexed files, and empty full-text searches browse all content-indexed files with text previews.
+- The results pane refreshes automatically when switching between `全文` and `文件名`, so indexed content appears before typing a keyword.
 - Expands filename filter categories to include images, audio/video, and archives in addition to documents, spreadsheets, presentations, web files, data files, and code.
 - Fixes misleading index progress: files that were scanned and processed but failed text extraction now count toward completed progress, while full-text indexed and error counts are shown separately.
 - Keeps the simplified compact index status summary introduced in v0.1.2.
@@ -28,7 +30,7 @@ Intel Mac requires a separate x64 build on an Intel macOS runner or an x86_64 Py
 
 ## Checksum
 
-`22f6803b1c578a98c63c382e50e6711fb5e5b3d95bfabfbb63a00e9e9f4e34ea  LocalFinder_0.1.3_aarch64.dmg`
+`833a1f8672c9cf935d583158e65ceaf7a70b5e25ca385df251535a64c7ee564d  LocalFinder_0.1.3_aarch64.dmg`
 
 ## Note
 
